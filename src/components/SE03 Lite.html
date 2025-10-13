@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhyno EV</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <script src="script.js" defer></script> <!-- Link to your JS file -->
+</head>
+<body>
+
+<!-- Header -->
+<header class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">
+        <img src="https://media.licdn.com/dms/image/D4D16AQGpymsU-uNkGA/profile-displaybackgroundimage-shrink_200_800/0/1685365416796?e=2147483647&v=beta&t=m_6nx8HuF0ECvmw9-WbB-560XHAlWXFBq6ixUuq7OzM" alt="Rhyno EV Logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="About.html">About Us</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="SE03 Lite.html">SE03 Lite</a>
+                    <a class="dropdown-item" href="SE03.html">SE03</a>
+                    <a class="dropdown-item" href="SE03 Max.html">SE03 Max</a>
+                    <a class="dropdown-item" href="comparetable.html">Compare All</a>
+                </div>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="Contact.html">Contact Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="prebook.html">Pre-Book Now</a></li>
+        </ul>
+        <div class="social-icons">
+            <a href="https://instagram.com/rhyno" target="_blank" aria-label="Instagram" class="nav-link" rel="noopener noreferrer">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://linkedin.com/company/rhyno" target="_blank" aria-label="LinkedIn" class="nav-link" rel="noopener noreferrer">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+    </div>
+</header>
+<style>
+    /* styles.css */
+
+
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+main h2 {
+    font-size: 2em;
+    color: #F9ED32; /* Brand yellow for headings */
+}
+
+main p {
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+}
+.spec-table {
+            background-color: #252525;
+            color: #FFFFFF;
+        }
+        .spec-table th, .spec-table td {
+            padding: 10px;
+            border: 1px solid #FFFFFF;
+        }
+        .spec-table th {
+            background-color: #424242;
+        }
+        .table-title {
+            background-color: #424242;
+            color: #252525;
+            text-align: center;
+            font-size: 1.5em;
+            padding: 10px;
+        }
+
+
+
+</style>
+
+        
+    </div>
+</header>
+
+<main class="container my-5">
+    <!-- SE03 Lite -->
+    <section id="se03lite" class="my-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Rhyno SE03 Max</h2>
+               
+            </div>
+                <div class="mb-3">
+                    <img id="car-1-img" class="card-img-top"src="" alt="Rhyno SE03 Lite" class="img-fluid">
+            </div>
+            <div class="card-body">
+                <div class="d-flex justify-content-between mb-3">
+                  <div class="color-circle" style="background-color: #01B8E5;" onclick="changeColor('car-1', '#A1E52C')"></div>
+                  <div class="color-circle" style="background-color: red;" onclick="changeColor('car-1', '#01B8E5')"></div>
+                  <div class="color-circle" style="background-color: black;" onclick="changeColor('car-1', '#C92C49')"></div>
+                </div>
+                <button class="btn btn-primary">Buy Now</button>
+                <p>Indulge in the perfect harmony of power and range with this Rhyno SE03 Lite. Offering an exhilarating experience with its robust 1500W motor, it ensures a thrilling ride while still delivering an impressive 70-100km range on a single charge. Check out the other details below!</p>
+        
+            </div>
+        </div>
+        <div class="container mt-5">
+    <div class="table-title">Rhyno SE03 Lite Specifications</div>
+    <table class="table table-bordered spec-table">
+        <thead>
+            <tr>
+                <th>Feature</th>
+                <th>Details</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Warranty on electronics</td>
+                <td>1 year</td>
+            </tr>
+            <tr>
+                <td>Battery</td>
+                <td>1.8Kwh</td>
+            </tr>
+            <tr>
+                <td>Max range (@30km/h)</td>
+                <td>100 km</td>
+            </tr>
+            <tr>
+                <td>Motor</td>
+                <td>1500W</td>
+            </tr>
+            <tr>
+                <td>Charging time</td>
+                <td>3 hours (12A)</td>
+            </tr>
+            <tr>
+                <td>Battery warranty</td>
+                <td>3 Years</td>
+            </tr>
+            <tr>
+                <td>Max speed</td>
+                <td>50 km/h</td>
+            </tr>
+            <tr>
+                <td>Max range (@full speed)</td>
+                <td>70 km</td>
+            </tr>
+            <tr>
+                <td>Max range (@45km/h)</td>
+                <td>90 km</td>
+            </tr>
+            <tr>
+                <td>Other key benefits</td>
+                <td>
+                    Fire-safe battery<br>
+                    Range prediction<br>
+                    Comfortable ride<br>
+                    Stable and safe
+                </td>
+            </tr>
+            <tr>
+                <td>Battery features</td>
+                <td>
+                    LFP with 1500 cycles<br>
+                    Active Balancing<br>
+                    Waterproof (IP67)
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+    
+            <style>
+                .color-circle {
+              width: 40px;
+              height: 40px;
+              border-radius: 50%;
+              cursor: pointer;
+              border: 2px solid transparent;
+              transition: border-color 0.3s ease;
+            }
+            
+            .color-circle:hover {
+              border-color: #ddd;
+            }
+            
+            </style>
+            <script>
+                const carImages = {
+              'car-1': {
+                '#A1E52C': 'https://res.cloudinary.com/dysapvb7e/image/upload/v1720076318/blue_1_ossecv.png',
+                '#01B8E5': 'https://res.cloudinary.com/dysapvb7e/image/upload/v1720076866/Copy_of_Copy_of_Copy_of_final_design_try_2_cross_view.168_uzdra9.png',
+                '#C92C49': 'https://res.cloudinary.com/dysapvb7e/image/upload/v1720078352/black_vlaspj.jpg'
+              },
+              'car-2': {
+                '#A1E52C': 'https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80',
+                '#01B8E5': 'https://p0.pikist.com/photos/131/463/bike-superbike-1000r-suzuki-motorbike-blue-race-speed-ride.jpg',
+                '#C92C49': 'https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHw%3D&w=1000&q=80'
+              }
+            };
+            
+            function changeColor(carId, color) {
+              const imgId = `${carId}-img`;
+              const imgElement = document.getElementById(imgId);
+              imgElement.src = carImages[carId][color];
+            }
+            
+            </script>
+        
+   <!-- Footer -->
+<footer class="footer bg-dark text-white py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>Policies</h5>
+                <ul class="list-unstyled">
+                    <li><a href="private policy.html" class="text-white">Privacy Policy</a></li>
+                    <li><a href="Refundpolicy.html" class="text-white">Refund Policy</a></li>
+                    <li><a href="#" class="text-white">Website Policy</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white">Contact Us</a></li>
+                    <li><a href="#" class="text-white">Products</a></li>
+                    <li><a href="#" class="text-white">Rentals</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Social</h5>
+                <ul class="list-unstyled">
+                    <li><a href="https://www.linkedin.com/company/rhyno-ev" class="text-white">Career (LinkedIn)</a></li>
+                    <li><a href="https://www.instagram.com/rhyno-ev" class="text-white">Instagram</a></li>
+                    <li><a href="https://www.linkedin.com/company/rhyno-ev" class="text-white">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="social-icons">
+            <a href="https://instagram.com/rhyno" target="_blank" aria-label="Instagram" class="nav-link" rel="noopener noreferrer">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://linkedin.com/company/rhyno" target="_blank" aria-label="LinkedIn" class="nav-link" rel="noopener noreferrer">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+    </div>
+        <div class="text-center pt-3">
+            <p>&copy; 2024 Rhyno EV. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.6/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+<style>
+    /* styles.css */
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f2f2f2; /* Light grey background */
+    color: #252525; /* Dark grey text */
+    margin: 0;
+    padding-top: 56px; /* Adjust for fixed navbar */
+}
+
+.navbar {
+    background-color: #252525 !important; /* Override Bootstrap default */
+}
+
+.navbar-brand img {
+    max-height: 40px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f9ed32 !important;
+}
+
+header, footer {
+    background-color: #252525;
+    color: white;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 40px 0;
+}
+
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+    text-align: right;
+}
+
+main h1 {
+    font-size: 2.5em;
+    color: #F9ED32; /* Brand yellow for headings */
+}
+
+main p {
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.footer-links li a {
+    color: white;
+}
+
+.footer-links a:hover {
+    color: #f9ed32;
+}
+
+</style>
